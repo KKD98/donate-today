@@ -1,25 +1,26 @@
-*{
+* {
     margin: 0 auto;
 }
 
-.primary-button{
+.primary-button {
 
-   background-color:#FF5959 ;
-   border: none;
-   padding: 10px;
-   color: white;
-   border-radius: 5px;
+    background-color: #FF5959;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 5px;
 }
 
 /* Header Section */
-.header{
+.header {
     margin-top: 0;
     padding: 0;
     /* border: 3px solid red; */
     width: 70%;
     height: 620px;
 }
-.banner{
+
+.banner {
     background-image: url('../images/donateImage/donation7.jpg');
     background-size: contain;
     background-repeat: no-repeat;
@@ -27,26 +28,94 @@
     height: 623px;
     margin: 0 auto;
     padding: 0;
-   /* border: 3px solid green; */
+    /* border: 3px solid green; */
 }
 
-.banner-contant{
-   
-   /* margin: 1050px; */
-   padding: 205px ;
-   width: 50%;
-   color: white;
-   /* border: 3px solid blue; */
-   text-align: center;
-  
+.banner-contant {
+
+    /* margin: 1050px; */
+    padding: 205px;
+    width: 50%;
+    color: white;
+    /* border: 3px solid blue; */
+    text-align: center;
+
 }
 
-.banner-title{
+.banner-title {
     font-size: 35px;
     font-weight: 600;
     margin-bottom: 25px;
 }
 
-.banner-description{
+.banner-description {
     margin-bottom: 25px;
+}
+
+/* Donate Today Section */
+
+.part-1 {
+    margin-top: 0;
+    padding: 150px;
+    width: 48%;
+    height: 180px;
+    color: black;
+    text-align: center;
+
+}
+
+.section-title {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.description {
+    color: gray;
+    margin-bottom: 30px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin-bottom: 30px;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.amount-li {
+    color: gray;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 20px 15px;
+}
+
+.amount-li-excep {
+    color: #FF5959;
+    font-size: 24px;
+    font-weight: 700;
+    border: 2px solid #FF5959;
+    padding: 20px 15px;
+    border-radius: 5px;
+    background-color: rgb(211, 163, 158);
+}
+
+.description-amount {
+    color: #B3B3B3;
+}
+
+.hrr{
+    margin-left: 45px;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.hr-line {
+    color: #B3B3B3;
+    width: 80%;
+    border: 1px solid #DADADA;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 70px;
 }
